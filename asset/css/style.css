@@ -1,0 +1,127 @@
+body{
+	margin: 0;
+	background-repeat: repeat;
+}
+
+video{
+position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+	z-index: -1000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: lightgray;
+}
+
+h1{
+	font-size: 5rem;
+	float: center;
+	color: black;
+	text-align: center;
+	line-height: 2;
+	font-family: 'Cormorant Upright', serif;
+	text-shadow: 3px 2px #BA382C;
+	letter-spacing: 10px;
+}
+
+h2{
+	color:black;
+	text-align: center;
+	float: center;
+	text-shadow: 3px 2px #AF3333;
+	font-size: 2.5rem;
+    letter-spacing: 3px;
+    padding: 0px 0px 60px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.content{
+}
+
+.icons{
+	font-size: 10rem;
+	color: #AF3333;
+	text-align: center;
+	margin-top: 10px;
+	letter-spacing: 85px;
+	text-shadow: 3px 2px #FFFFFF;
+}
+
+.Quote{
+	text-shadow: 3px 2px #AF3333;
+	font-size: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 2px;
+	height: 20vh;
+	letter-spacing: 5px;
+}
+
+div.overmenu {
+    background-color: #AF3333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.overmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: whitesmoke;
+}
+
+video{
+position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+	z-index: -1000;
+
+
+
+
+
+
+
