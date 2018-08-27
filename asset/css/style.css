@@ -1,80 +1,75 @@
-body{
+html, body {
 	margin: 0;
 	background-repeat: repeat;
+	height: 100%;
+	width: 100%;
 }
 
-video{
-position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 	z-index: -1000;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
 }
 
 li {
-    float: right;
+	float: right;
 }
 
 li a {
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+	background-color: #111;
 }
 
 .active {
-    background-color: lightgray;
+	background-color: lightgray;
 }
 
-h1{
+h1 {
 	font-size: 5rem;
-	float: center;
-	color: black;
-	text-align: center;
 	line-height: 2;
 	font-family: 'Cormorant Upright', serif;
 	text-shadow: 3px 2px #BA382C;
 	letter-spacing: 10px;
 }
 
-h2{
-	color:black;
-	text-align: center;
-	float: center;
+h2 {
+	color: white;
 	text-shadow: 3px 2px #AF3333;
 	font-size: 2.5rem;
-    letter-spacing: 3px;
-    padding: 0px 0px 60px;
+	letter-spacing: 3px;
+	padding: 0px 0px 60px;
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+	background: #3B5998;
+	color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+	background: #007bb5;
+	color: white;
 }
 
-.content{
-}
-
-.icons{
+.icons {
 	font-size: 10rem;
 	color: #AF3333;
 	text-align: center;
@@ -83,7 +78,7 @@ h2{
 	text-shadow: 3px 2px #FFFFFF;
 }
 
-.Quote{
+.Quote {
 	text-shadow: 3px 2px #AF3333;
 	font-size: 25px;
 	text-align: center;
@@ -94,34 +89,100 @@ h2{
 }
 
 div.overmenu {
-    background-color: #AF3333;
-    overflow: auto;
-    white-space: nowrap;
+	background-color: #AF3333;
+	overflow: auto;
+	white-space: nowrap;
 }
 
 div.overmenu a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
 }
 
 div.scrollmenu a:hover {
-    background-color: whitesmoke;
+	background-color: whitesmoke;
 }
 
-video{
-position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 	z-index: -1000;
+}
+.hero_text{
+	width:70%;
+	margin: auto;
+}
+.hero_text h1 {
+	font-size: 50px;
+	color: white;
+
+}
+
+.hero_text h2 {
+	font-size: 30px;
+
+}
+
+.hero_text p {
+	font-size: 20px;
+	color: white;
+}
+
+.hero_text h3 {
+	font-size: 30px;
+	color: white;
+}
 
 
+.hero_text h4 {
+	text-align: center;
+	padding-top: 150px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 72px;
+	color: #fff;
+}
+form{
+	width: 30%;
+	color: white;
+	margin: auto;
+}
+.hue {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+	background-color: hsl(0, 50%, 50%);
+	animation: hue 10s infinite alternate;
+	width: 100%;
 
+}
+.hue_text{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+@keyframes hue {
+	20% {
+		background-color: hsl(72, 50%, 50%);
+	}
+	40% {
+		background-color: hsl(144, 50%, 50%);
+	}
+	60% {
+		background-color: hsl(216, 50%, 50%);
+	}
+	80% {
+		background-color: hsl(288, 50%, 50%);
+	}
+	100% {
+		background-color: hsl(360, 50%, 50%);
+	}
+}
 
-
-
-
+.contactform {
+	font-size: 20px;
+}
